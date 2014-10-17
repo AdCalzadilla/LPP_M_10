@@ -2,5 +2,5 @@ task :default => :tu
 
 desc "Pruebas unitarias de la clase Complejo."
 task :tu do
-  sh "ruby -I. tc_complejo.rb"
+  sh "ruby -I. test/tc_complejo.rb"
 end
