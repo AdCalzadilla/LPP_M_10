@@ -3,7 +3,7 @@ class Complejo
 
   def * (num)
 	if(num.class == Complejo)
-           real = (self.real*num.real - self.imaginary*num.imaginary)
+           real = (self.real*num.real + self.imaginary*num.imaginary)
        	   imaginary = (self.real*num.imaginary + self.imaginary*num.real)
 	   Complejo.new(real,imaginary)
 
