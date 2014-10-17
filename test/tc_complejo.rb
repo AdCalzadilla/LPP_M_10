@@ -17,7 +17,9 @@ class TestComplejo < Test::Unit::TestCase
 	def test_multiplicacion
 		assert_equal(("4.0 + 6.0i"),(@numberOne*@numberTwo).to_s)
 	end
-	
+        def test_division
+		assert_equal(("1.0 -1.5i"),(@numberOne/@numberTwo).to_s)
+	end	
 
 
 end
